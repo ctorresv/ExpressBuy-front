@@ -1,6 +1,6 @@
 import axios from "axios"
 
-export let apiUrl = 'https://expressbuymh.onrender.com/'
+export let apiUrl = 'https://expressbuy-back.onrender.com'
 
 if (process.env.NODE_ENV === 'production') {
   apiUrl = import.meta.env.VITE_API
